@@ -7,17 +7,17 @@ var stylefn = function () {
     large: {
       x: 520,
       y: 180,
-      fontSize: 80
+      font: '80 pt Arial'
     },
     medium: {
       x: 535,
       y: 90,
-      fontSize: 46
+      font: '46 pt Arial'
     },
     small: {
       x: 535,
       y: 80,
-      fontSize: 26
+      font: '26 pt Arial'
     }
   };
 

@@ -27,7 +27,7 @@ module.exports = function (text, options, cb) {
     var canvas = new Canvas(img.width, img.height);
     ctx = canvas.getContext('2d');
     ctx.drawImage(img, 0, 0, img.width, img.height);
-    ctx.font = profile.fontSize + 'pt Arial';
+    ctx.font = profile.font;
     ctx.fillStyle = 'white';
     ctx.fillText(text, profile.x, profile.y);
 
